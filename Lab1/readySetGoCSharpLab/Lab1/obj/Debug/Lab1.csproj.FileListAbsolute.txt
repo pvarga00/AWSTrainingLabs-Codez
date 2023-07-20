@@ -1,0 +1,11 @@
+C:\temp\workdir\readySetGoCSharpLab\Lab1\bin\Debug\Lab1.exe
+C:\temp\workdir\readySetGoCSharpLab\Lab1\bin\Debug\Lab1.pdb
+C:\temp\workdir\readySetGoCSharpLab\Lab1\bin\Debug\AWSSDK.Core.dll
+C:\temp\workdir\readySetGoCSharpLab\Lab1\bin\Debug\AWSSDK.Core.pdb
+C:\temp\workdir\readySetGoCSharpLab\Lab1\bin\Debug\AWSSDK.S3.dll
+C:\temp\workdir\readySetGoCSharpLab\Lab1\bin\Debug\AWSSDK.S3.pdb
+C:\temp\workdir\readySetGoCSharpLab\Lab1\obj\Debug\Lab1.csprojAssemblyReference.cache
+C:\temp\workdir\readySetGoCSharpLab\Lab1\obj\Debug\Lab1.csproj.CoreCompileInputs.cache
+C:\temp\workdir\readySetGoCSharpLab\Lab1\obj\Debug\Lab1.csproj.CopyComplete
+C:\temp\workdir\readySetGoCSharpLab\Lab1\obj\Debug\Lab1.exe
+C:\temp\workdir\readySetGoCSharpLab\Lab1\obj\Debug\Lab1.pdb

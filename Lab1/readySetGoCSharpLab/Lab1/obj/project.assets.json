@@ -1,0 +1,240 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {
+      "AWSSDK.Core/3.3.24.6": {
+        "type": "package",
+        "compile": {
+          "lib/net45/AWSSDK.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/AWSSDK.Core.dll": {}
+        }
+      },
+      "AWSSDK.S3/3.3.20.2": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.3.24.6, 3.4.0)"
+        },
+        "compile": {
+          "lib/net45/AWSSDK.S3.dll": {}
+        },
+        "runtime": {
+          "lib/net45/AWSSDK.S3.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win": {
+      "AWSSDK.Core/3.3.24.6": {
+        "type": "package",
+        "compile": {
+          "lib/net45/AWSSDK.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/AWSSDK.Core.dll": {}
+        }
+      },
+      "AWSSDK.S3/3.3.20.2": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.3.24.6, 3.4.0)"
+        },
+        "compile": {
+          "lib/net45/AWSSDK.S3.dll": {}
+        },
+        "runtime": {
+          "lib/net45/AWSSDK.S3.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win-x64": {
+      "AWSSDK.Core/3.3.24.6": {
+        "type": "package",
+        "compile": {
+          "lib/net45/AWSSDK.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/AWSSDK.Core.dll": {}
+        }
+      },
+      "AWSSDK.S3/3.3.20.2": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.3.24.6, 3.4.0)"
+        },
+        "compile": {
+          "lib/net45/AWSSDK.S3.dll": {}
+        },
+        "runtime": {
+          "lib/net45/AWSSDK.S3.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win-x86": {
+      "AWSSDK.Core/3.3.24.6": {
+        "type": "package",
+        "compile": {
+          "lib/net45/AWSSDK.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/AWSSDK.Core.dll": {}
+        }
+      },
+      "AWSSDK.S3/3.3.20.2": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.3.24.6, 3.4.0)"
+        },
+        "compile": {
+          "lib/net45/AWSSDK.S3.dll": {}
+        },
+        "runtime": {
+          "lib/net45/AWSSDK.S3.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AWSSDK.Core/3.3.24.6": {
+      "sha512": "Al68q9vDQXTXkDOrr9DZY01j9Cf31m4MDBSx4K6egrq/zl7Fok01rEUZ0kovFLINx18Frn+FyzCw7v+1oZCOJw==",
+      "type": "package",
+      "path": "awssdk.core/3.3.24.6",
+      "files": [
+        ".signature.p7s",
+        "awssdk.core.3.3.24.6.nupkg.sha512",
+        "awssdk.core.nuspec",
+        "lib/MonoAndroid10/AWSSDK.Core.XML",
+        "lib/MonoAndroid10/AWSSDK.Core.dll",
+        "lib/MonoAndroid10/AWSSDK.Core.pdb",
+        "lib/MonoTouch10/AWSSDK.Core.XML",
+        "lib/MonoTouch10/AWSSDK.Core.dll",
+        "lib/Xamarin.Mac20/AWSSDK.Core.XML",
+        "lib/Xamarin.Mac20/AWSSDK.Core.dll",
+        "lib/Xamarin.iOS10/AWSSDK.Core.XML",
+        "lib/Xamarin.iOS10/AWSSDK.Core.dll",
+        "lib/net35/AWSSDK.Core.dll",
+        "lib/net35/AWSSDK.Core.pdb",
+        "lib/net35/AWSSDK.Core.xml",
+        "lib/net45/AWSSDK.Core.dll",
+        "lib/net45/AWSSDK.Core.pdb",
+        "lib/net45/AWSSDK.Core.xml",
+        "lib/netstandard1.3/AWSSDK.Core.dll",
+        "lib/netstandard1.3/AWSSDK.Core.pdb",
+        "lib/netstandard1.3/AWSSDK.Core.xml",
+        "lib/portable-net45+win8+wpa81+wp8/AWSSDK.Core.XML",
+        "lib/portable-net45+win8+wpa81+wp8/AWSSDK.Core.dll",
+        "lib/portable-net45+win8+wpa81+wp8/AWSSDK.Core.pdb",
+        "lib/uap/AWSSDK.Core.XML",
+        "lib/uap/AWSSDK.Core.dll",
+        "lib/uap/AWSSDK.Core.pdb",
+        "lib/win8/AWSSDK.Core.XML",
+        "lib/win8/AWSSDK.Core.dll",
+        "lib/win8/AWSSDK.Core.pdb",
+        "lib/wp8/AWSSDK.Core.XML",
+        "lib/wp8/AWSSDK.Core.dll",
+        "lib/wp8/AWSSDK.Core.pdb",
+        "lib/wpa81/AWSSDK.Core.XML",
+        "lib/wpa81/AWSSDK.Core.dll",
+        "lib/wpa81/AWSSDK.Core.pdb",
+        "tools/account-management.ps1"
+      ]
+    },
+    "AWSSDK.S3/3.3.20.2": {
+      "sha512": "S1e4rCTTvy9F91pKIKb3E6FnVlH3hUnzapPrFNyO4myhCeCGm8/aUXIL/kNfBJQk0na8HkeZUpOJWlzzSXcRFQ==",
+      "type": "package",
+      "path": "awssdk.s3/3.3.20.2",
+      "files": [
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.S3.CodeAnalysis.dll",
+        "awssdk.s3.3.3.20.2.nupkg.sha512",
+        "awssdk.s3.nuspec",
+        "lib/MonoAndroid10/AWSSDK.S3.XML",
+        "lib/MonoAndroid10/AWSSDK.S3.dll",
+        "lib/MonoTouch10/AWSSDK.S3.XML",
+        "lib/MonoTouch10/AWSSDK.S3.dll",
+        "lib/MonoTouch10/AWSSDK.S3.pdb",
+        "lib/Xamarin.iOS10/AWSSDK.S3.XML",
+        "lib/Xamarin.iOS10/AWSSDK.S3.dll",
+        "lib/net35/AWSSDK.S3.dll",
+        "lib/net35/AWSSDK.S3.pdb",
+        "lib/net35/AWSSDK.S3.xml",
+        "lib/net45/AWSSDK.S3.dll",
+        "lib/net45/AWSSDK.S3.pdb",
+        "lib/net45/AWSSDK.S3.xml",
+        "lib/netstandard1.3/AWSSDK.S3.dll",
+        "lib/netstandard1.3/AWSSDK.S3.pdb",
+        "lib/netstandard1.3/AWSSDK.S3.xml",
+        "lib/portable-net45+win8+wpa81+wp8/AWSSDK.S3.XML",
+        "lib/portable-net45+win8+wpa81+wp8/AWSSDK.S3.dll",
+        "lib/portable-net45+win8+wpa81+wp8/AWSSDK.S3.pdb",
+        "lib/uap/AWSSDK.S3.XML",
+        "lib/uap/AWSSDK.S3.dll",
+        "lib/uap/AWSSDK.S3.pdb",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.1": [
+      "AWSSDK.Core >= 3.3.24.6",
+      "AWSSDK.S3 >= 3.3.20.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\temp\\workdir\\readySetGoCSharpLab\\Lab1\\Lab1.csproj",
+      "projectName": "Lab1",
+      "projectPath": "C:\\temp\\workdir\\readySetGoCSharpLab\\Lab1\\Lab1.csproj",
+      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+      "outputPath": "C:\\temp\\workdir\\readySetGoCSharpLab\\Lab1\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net461"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net461": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net461": {
+        "dependencies": {
+          "AWSSDK.Core": {
+            "target": "Package",
+            "version": "[3.3.24.6, )"
+          },
+          "AWSSDK.S3": {
+            "target": "Package",
+            "version": "[3.3.20.2, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}
